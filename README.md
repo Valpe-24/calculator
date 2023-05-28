@@ -1,1 +1,1 @@
-# calculator
+# Optional Homework - simple calculator
