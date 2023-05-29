@@ -26,12 +26,12 @@ let reducer = (state, { type, payload }) => {
         return state;
       }
 
-      if(payload.digit === "." && state.currenOperand == null){
-        return{
-          ...state,
-          currentOperand: payload.digit,
-        }
-      }
+      // if(payload.digit === "." && state.currenOperand == null){
+      //   return{
+      //     ...state,
+      //     currentOperand: payload.digit,
+      //   }
+      // }
 
       if (payload.digit === "." && state.currentOperand.includes(".")) {
         return state;
